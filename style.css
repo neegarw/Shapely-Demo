@@ -123,29 +123,21 @@ main .container{
     justify-content:space-around ;
     height: max-content;
 }
-#parallax p{
-    color: #fff;
-}
+#parallax p{color: #fff;}
 #parallax button{
     background: #553ed3;
     transition: 1s;
 }
-#parallax button:hover{
-    background: #221180;
-}
+#parallax button:hover{background: #221180;}
 #option .container{
-    background: url(option.jpeg);
-    height: 125vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
-/* #option img{
-    width: 100%;
-    margin-bottom:0 ;
-} */
+#option img{width: 100%;}
 .content{
     text-align: center;
     display: flex;
@@ -159,9 +151,7 @@ main .container{
     background-color: #553ed3;
     transition: 1s;
 }
-#option button:hover{
-    background-color: #221180;
-}
+#option button:hover{background-color: #221180;}
 .galery-section{
     background-color: #0E1015 ;
     padding: 40px 0;
@@ -207,12 +197,8 @@ h5{
     flex-direction: column;
     gap: 20px;
 }
-.customer h2{
-    padding-top: 20px;
-}
-.customer h4{
-    padding-bottom: 20px;
-}
+.customer h2{padding-top: 20px;}
+.customer h4{padding-bottom: 20px;}
 .customer img{
     width: 10%;
     border-radius: 50%;
@@ -230,9 +216,7 @@ h5{
     justify-content: center;
     align-items: center;
 }
-.row i{
-    font-size: 3em;
-}
+.row i{font-size: 3em;}
 #finish{
     background-color: #F5F5F5;
     display: flex;
@@ -262,9 +246,7 @@ footer .container{
     gap: 10px;
 }
 @media only screen and (min-width: 768px ) {
-    h1{
-        font-size: 3rem;
-    }
+    h1{font-size: 3rem;}
     menu{
         display: flex;
         gap: 2vw;
@@ -284,22 +266,13 @@ footer .container{
         flex-direction: row;
         gap: 20px;
     }
-    #option .container{
-        height: 140vh;
-    }
-    #portfolio img{
-        width: 60%;
-    }
-    #portfolio article{
-        width: 40%;
-    }  
+    #portfolio img{width: 60%;}
+    #portfolio article{width: 40%;}  
     .galery{
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .galery div{
-        width: 25%;
-    }
+    .galery div{width: 25%;}
     h5{
         height: 0;
         overflow: hidden;
