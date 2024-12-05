@@ -114,7 +114,6 @@ main .container{
 #portfolio button:hover{background-color: #553ed3;}
 #parallax{
     background: url(img/parallax.jpeg) center/cover;
-    background-attachment: fixed;
 }
 #parallax div{
     display: flex;
@@ -256,6 +255,9 @@ footer .container{
         font-weight: 100px;
     }
     .hamburger{display: none;}
+    #bg{
+        background-attachment: fixed;
+    }
     #seo .container{
         flex-direction:row;
         gap: 20px;
@@ -267,7 +269,8 @@ footer .container{
         gap: 20px;
     }
     #portfolio img{width: 60%;}
-    #portfolio article{width: 40%;}  
+    #portfolio article{width: 40%;} 
+    #parallax{background-attachment: fixed;} 
     .galery{
         flex-direction: row;
         flex-wrap: wrap;
