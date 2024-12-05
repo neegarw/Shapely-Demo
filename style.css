@@ -134,17 +134,18 @@ main .container{
     background: #221180;
 }
 #option .container{
-    height: 130vh;
+    background: url(option.jpeg);
+    height: 125vh;
     display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
     align-items: center;
 }
-#option img{
+/* #option img{
+    width: 100%;
     margin-bottom:0 ;
-    height: 90vh;
-}
+} */
 .content{
     text-align: center;
     display: flex;
@@ -255,7 +256,10 @@ footer .container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+}
+.footer{
+    display: flex;
+    gap: 10px;
 }
 @media only screen and (min-width: 768px ) {
     h1{
@@ -279,6 +283,9 @@ footer .container{
     #portfolio .container{
         flex-direction: row;
         gap: 20px;
+    }
+    #option .container{
+        height: 140vh;
     }
     #portfolio img{
         width: 60%;
